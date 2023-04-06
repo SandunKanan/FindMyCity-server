@@ -1,0 +1,1066 @@
+[
+  {
+    "city_id": 1,
+    "name": "Aarhus"
+  },
+  {
+    "city_id": 2,
+    "name": "Adelaide"
+  },
+  {
+    "city_id": 3,
+    "name": "Albuquerque"
+  },
+  {
+    "city_id": 4,
+    "name": "Almaty"
+  },
+  {
+    "city_id": 5,
+    "name": "Amsterdam"
+  },
+  {
+    "city_id": 6,
+    "name": "Anchorage"
+  },
+  {
+    "city_id": 7,
+    "name": "Andorra"
+  },
+  {
+    "city_id": 8,
+    "name": "Ankara"
+  },
+  {
+    "city_id": 9,
+    "name": "Asheville"
+  },
+  {
+    "city_id": 10,
+    "name": "Asuncion"
+  },
+  {
+    "city_id": 11,
+    "name": "Athens"
+  },
+  {
+    "city_id": 12,
+    "name": "Atlanta"
+  },
+  {
+    "city_id": 13,
+    "name": "Auckland"
+  },
+  {
+    "city_id": 14,
+    "name": "Austin"
+  },
+  {
+    "city_id": 15,
+    "name": "Baku"
+  },
+  {
+    "city_id": 16,
+    "name": "Bali"
+  },
+  {
+    "city_id": 17,
+    "name": "Baltimore"
+  },
+  {
+    "city_id": 18,
+    "name": "Bangkok"
+  },
+  {
+    "city_id": 19,
+    "name": "Barcelona"
+  },
+  {
+    "city_id": 20,
+    "name": "Beijing"
+  },
+  {
+    "city_id": 21,
+    "name": "Beirut"
+  },
+  {
+    "city_id": 22,
+    "name": "Belfast"
+  },
+  {
+    "city_id": 23,
+    "name": "Belgrade"
+  },
+  {
+    "city_id": 24,
+    "name": "Belize City"
+  },
+  {
+    "city_id": 25,
+    "name": "Bengaluru"
+  },
+  {
+    "city_id": 26,
+    "name": "Bergen"
+  },
+  {
+    "city_id": 27,
+    "name": "Berlin"
+  },
+  {
+    "city_id": 28,
+    "name": "Bern"
+  },
+  {
+    "city_id": 29,
+    "name": "Bilbao"
+  },
+  {
+    "city_id": 30,
+    "name": "Birmingham"
+  },
+  {
+    "city_id": 31,
+    "name": "Birmingham, AL"
+  },
+  {
+    "city_id": 32,
+    "name": "Bogota"
+  },
+  {
+    "city_id": 33,
+    "name": "Boise"
+  },
+  {
+    "city_id": 34,
+    "name": "Bologna"
+  },
+  {
+    "city_id": 35,
+    "name": "Bordeaux"
+  },
+  {
+    "city_id": 36,
+    "name": "Boston"
+  },
+  {
+    "city_id": 37,
+    "name": "Boulder"
+  },
+  {
+    "city_id": 38,
+    "name": "Bozeman"
+  },
+  {
+    "city_id": 39,
+    "name": "Bratislava"
+  },
+  {
+    "city_id": 40,
+    "name": "Brighton"
+  },
+  {
+    "city_id": 41,
+    "name": "Brisbane"
+  },
+  {
+    "city_id": 42,
+    "name": "Bristol"
+  },
+  {
+    "city_id": 43,
+    "name": "Brno"
+  },
+  {
+    "city_id": 44,
+    "name": "Brussels"
+  },
+  {
+    "city_id": 45,
+    "name": "Bucharest"
+  },
+  {
+    "city_id": 46,
+    "name": "Budapest"
+  },
+  {
+    "city_id": 47,
+    "name": "Buenos Aires"
+  },
+  {
+    "city_id": 48,
+    "name": "Buffalo"
+  },
+  {
+    "city_id": 49,
+    "name": "Cairo"
+  },
+  {
+    "city_id": 50,
+    "name": "Calgary"
+  },
+  {
+    "city_id": 51,
+    "name": "Cambridge"
+  },
+  {
+    "city_id": 52,
+    "name": "Cape Town"
+  },
+  {
+    "city_id": 53,
+    "name": "Caracas"
+  },
+  {
+    "city_id": 54,
+    "name": "Cardiff"
+  },
+  {
+    "city_id": 55,
+    "name": "Casablanca"
+  },
+  {
+    "city_id": 56,
+    "name": "Charleston"
+  },
+  {
+    "city_id": 57,
+    "name": "Charlotte"
+  },
+  {
+    "city_id": 58,
+    "name": "Chattanooga"
+  },
+  {
+    "city_id": 59,
+    "name": "Chennai"
+  },
+  {
+    "city_id": 60,
+    "name": "Chiang Mai"
+  },
+  {
+    "city_id": 61,
+    "name": "Chicago"
+  },
+  {
+    "city_id": 62,
+    "name": "Chisinau"
+  },
+  {
+    "city_id": 63,
+    "name": "Christchurch"
+  },
+  {
+    "city_id": 64,
+    "name": "Cincinnati"
+  },
+  {
+    "city_id": 65,
+    "name": "Cleveland"
+  },
+  {
+    "city_id": 66,
+    "name": "Cluj-Napoca"
+  },
+  {
+    "city_id": 67,
+    "name": "Cologne"
+  },
+  {
+    "city_id": 68,
+    "name": "Colorado Springs"
+  },
+  {
+    "city_id": 69,
+    "name": "Columbus"
+  },
+  {
+    "city_id": 70,
+    "name": "Copenhagen"
+  },
+  {
+    "city_id": 71,
+    "name": "Cork"
+  },
+  {
+    "city_id": 72,
+    "name": "Curitiba"
+  },
+  {
+    "city_id": 73,
+    "name": "Dallas"
+  },
+  {
+    "city_id": 74,
+    "name": "Dar es Salaam"
+  },
+  {
+    "city_id": 75,
+    "name": "Delhi"
+  },
+  {
+    "city_id": 76,
+    "name": "Denver"
+  },
+  {
+    "city_id": 77,
+    "name": "Des Moines"
+  },
+  {
+    "city_id": 78,
+    "name": "Detroit"
+  },
+  {
+    "city_id": 79,
+    "name": "Doha"
+  },
+  {
+    "city_id": 80,
+    "name": "Dresden"
+  },
+  {
+    "city_id": 81,
+    "name": "Dubai"
+  },
+  {
+    "city_id": 82,
+    "name": "Dublin"
+  },
+  {
+    "city_id": 83,
+    "name": "Dusseldorf"
+  },
+  {
+    "city_id": 84,
+    "name": "Edinburgh"
+  },
+  {
+    "city_id": 85,
+    "name": "Edmonton"
+  },
+  {
+    "city_id": 86,
+    "name": "Eindhoven"
+  },
+  {
+    "city_id": 87,
+    "name": "Eugene"
+  },
+  {
+    "city_id": 88,
+    "name": "Florence"
+  },
+  {
+    "city_id": 89,
+    "name": "Florianopolis"
+  },
+  {
+    "city_id": 90,
+    "name": "Fort Collins"
+  },
+  {
+    "city_id": 91,
+    "name": "Frankfurt"
+  },
+  {
+    "city_id": 92,
+    "name": "Fukuoka"
+  },
+  {
+    "city_id": 93,
+    "name": "Galway"
+  },
+  {
+    "city_id": 94,
+    "name": "Gdansk"
+  },
+  {
+    "city_id": 95,
+    "name": "Geneva"
+  },
+  {
+    "city_id": 96,
+    "name": "Gibraltar"
+  },
+  {
+    "city_id": 97,
+    "name": "Glasgow"
+  },
+  {
+    "city_id": 98,
+    "name": "Gothenburg"
+  },
+  {
+    "city_id": 99,
+    "name": "Grenoble"
+  },
+  {
+    "city_id": 100,
+    "name": "Guadalajara"
+  },
+  {
+    "city_id": 101,
+    "name": "Guatemala City"
+  },
+  {
+    "city_id": 102,
+    "name": "Halifax"
+  },
+  {
+    "city_id": 103,
+    "name": "Hamburg"
+  },
+  {
+    "city_id": 104,
+    "name": "Hannover"
+  },
+  {
+    "city_id": 105,
+    "name": "Havana"
+  },
+  {
+    "city_id": 106,
+    "name": "Helsinki"
+  },
+  {
+    "city_id": 107,
+    "name": "Ho Chi Minh City"
+  },
+  {
+    "city_id": 108,
+    "name": "Hong Kong"
+  },
+  {
+    "city_id": 109,
+    "name": "Honolulu"
+  },
+  {
+    "city_id": 110,
+    "name": "Houston"
+  },
+  {
+    "city_id": 111,
+    "name": "Hyderabad"
+  },
+  {
+    "city_id": 112,
+    "name": "Indianapolis"
+  },
+  {
+    "city_id": 113,
+    "name": "Innsbruck"
+  },
+  {
+    "city_id": 114,
+    "name": "Istanbul"
+  },
+  {
+    "city_id": 115,
+    "name": "Jacksonville"
+  },
+  {
+    "city_id": 116,
+    "name": "Jakarta"
+  },
+  {
+    "city_id": 117,
+    "name": "Johannesburg"
+  },
+  {
+    "city_id": 118,
+    "name": "Kansas City"
+  },
+  {
+    "city_id": 119,
+    "name": "Karlsruhe"
+  },
+  {
+    "city_id": 120,
+    "name": "Kathmandu"
+  },
+  {
+    "city_id": 121,
+    "name": "Kiev"
+  },
+  {
+    "city_id": 122,
+    "name": "Kingston"
+  },
+  {
+    "city_id": 123,
+    "name": "Knoxville"
+  },
+  {
+    "city_id": 124,
+    "name": "Krakow"
+  },
+  {
+    "city_id": 125,
+    "name": "Kuala Lumpur"
+  },
+  {
+    "city_id": 126,
+    "name": "Kyoto"
+  },
+  {
+    "city_id": 127,
+    "name": "Lagos"
+  },
+  {
+    "city_id": 128,
+    "name": "La Paz"
+  },
+  {
+    "city_id": 129,
+    "name": "Las Palmas de Gran Canaria"
+  },
+  {
+    "city_id": 130,
+    "name": "Las Vegas"
+  },
+  {
+    "city_id": 131,
+    "name": "Lausanne"
+  },
+  {
+    "city_id": 132,
+    "name": "Leeds"
+  },
+  {
+    "city_id": 133,
+    "name": "Leipzig"
+  },
+  {
+    "city_id": 134,
+    "name": "Lille"
+  },
+  {
+    "city_id": 135,
+    "name": "Lima"
+  },
+  {
+    "city_id": 136,
+    "name": "Lisbon"
+  },
+  {
+    "city_id": 137,
+    "name": "Liverpool"
+  },
+  {
+    "city_id": 138,
+    "name": "Ljubljana"
+  },
+  {
+    "city_id": 139,
+    "name": "London"
+  },
+  {
+    "city_id": 140,
+    "name": "Los Angeles"
+  },
+  {
+    "city_id": 141,
+    "name": "Louisville"
+  },
+  {
+    "city_id": 142,
+    "name": "Luxembourg"
+  },
+  {
+    "city_id": 143,
+    "name": "Lviv"
+  },
+  {
+    "city_id": 144,
+    "name": "Lyon"
+  },
+  {
+    "city_id": 145,
+    "name": "Madison"
+  },
+  {
+    "city_id": 146,
+    "name": "Madrid"
+  },
+  {
+    "city_id": 147,
+    "name": "Malaga"
+  },
+  {
+    "city_id": 148,
+    "name": "Malmo"
+  },
+  {
+    "city_id": 149,
+    "name": "Managua"
+  },
+  {
+    "city_id": 150,
+    "name": "Manchester"
+  },
+  {
+    "city_id": 151,
+    "name": "Manila"
+  },
+  {
+    "city_id": 152,
+    "name": "Marseille"
+  },
+  {
+    "city_id": 153,
+    "name": "Medellin"
+  },
+  {
+    "city_id": 154,
+    "name": "Melbourne"
+  },
+  {
+    "city_id": 155,
+    "name": "Memphis"
+  },
+  {
+    "city_id": 156,
+    "name": "Mexico City"
+  },
+  {
+    "city_id": 157,
+    "name": "Miami"
+  },
+  {
+    "city_id": 158,
+    "name": "Milan"
+  },
+  {
+    "city_id": 159,
+    "name": "Milwaukee"
+  },
+  {
+    "city_id": 160,
+    "name": "Minneapolis-Saint Paul"
+  },
+  {
+    "city_id": 161,
+    "name": "Minsk"
+  },
+  {
+    "city_id": 162,
+    "name": "Montevideo"
+  },
+  {
+    "city_id": 163,
+    "name": "Montreal"
+  },
+  {
+    "city_id": 164,
+    "name": "Moscow"
+  },
+  {
+    "city_id": 165,
+    "name": "Mumbai"
+  },
+  {
+    "city_id": 166,
+    "name": "Munich"
+  },
+  {
+    "city_id": 167,
+    "name": "Nairobi"
+  },
+  {
+    "city_id": 168,
+    "name": "Nantes"
+  },
+  {
+    "city_id": 169,
+    "name": "Naples"
+  },
+  {
+    "city_id": 170,
+    "name": "Nashville"
+  },
+  {
+    "city_id": 171,
+    "name": "New Orleans"
+  },
+  {
+    "city_id": 172,
+    "name": "New York"
+  },
+  {
+    "city_id": 173,
+    "name": "Nice"
+  },
+  {
+    "city_id": 174,
+    "name": "Nicosia"
+  },
+  {
+    "city_id": 175,
+    "name": "Oklahoma City"
+  },
+  {
+    "city_id": 176,
+    "name": "Omaha"
+  },
+  {
+    "city_id": 177,
+    "name": "Orlando"
+  },
+  {
+    "city_id": 178,
+    "name": "Osaka"
+  },
+  {
+    "city_id": 179,
+    "name": "Oslo"
+  },
+  {
+    "city_id": 180,
+    "name": "Ottawa"
+  },
+  {
+    "city_id": 181,
+    "name": "Oulu"
+  },
+  {
+    "city_id": 182,
+    "name": "Oxford"
+  },
+  {
+    "city_id": 183,
+    "name": "Palo Alto"
+  },
+  {
+    "city_id": 184,
+    "name": "Panama"
+  },
+  {
+    "city_id": 185,
+    "name": "Paris"
+  },
+  {
+    "city_id": 186,
+    "name": "Perth"
+  },
+  {
+    "city_id": 187,
+    "name": "Philadelphia"
+  },
+  {
+    "city_id": 188,
+    "name": "Phnom Penh"
+  },
+  {
+    "city_id": 189,
+    "name": "Phoenix"
+  },
+  {
+    "city_id": 190,
+    "name": "Phuket"
+  },
+  {
+    "city_id": 191,
+    "name": "Pittsburgh"
+  },
+  {
+    "city_id": 192,
+    "name": "Portland, ME"
+  },
+  {
+    "city_id": 193,
+    "name": "Portland, OR"
+  },
+  {
+    "city_id": 194,
+    "name": "Porto"
+  },
+  {
+    "city_id": 195,
+    "name": "Porto Alegre"
+  },
+  {
+    "city_id": 196,
+    "name": "Prague"
+  },
+  {
+    "city_id": 197,
+    "name": "Providence"
+  },
+  {
+    "city_id": 198,
+    "name": "Quebec"
+  },
+  {
+    "city_id": 199,
+    "name": "Quito"
+  },
+  {
+    "city_id": 200,
+    "name": "Raleigh"
+  },
+  {
+    "city_id": 201,
+    "name": "Reykjavik"
+  },
+  {
+    "city_id": 202,
+    "name": "Richmond"
+  },
+  {
+    "city_id": 203,
+    "name": "Riga"
+  },
+  {
+    "city_id": 204,
+    "name": "Rio De Janeiro"
+  },
+  {
+    "city_id": 205,
+    "name": "Riyadh"
+  },
+  {
+    "city_id": 206,
+    "name": "Rochester"
+  },
+  {
+    "city_id": 207,
+    "name": "Rome"
+  },
+  {
+    "city_id": 208,
+    "name": "Rotterdam"
+  },
+  {
+    "city_id": 209,
+    "name": "Saint Petersburg"
+  },
+  {
+    "city_id": 210,
+    "name": "Salt Lake City"
+  },
+  {
+    "city_id": 211,
+    "name": "San Antonio"
+  },
+  {
+    "city_id": 212,
+    "name": "San Diego"
+  },
+  {
+    "city_id": 213,
+    "name": "San Francisco Bay Area"
+  },
+  {
+    "city_id": 214,
+    "name": "San Jose"
+  },
+  {
+    "city_id": 215,
+    "name": "San Juan"
+  },
+  {
+    "city_id": 216,
+    "name": "San Luis Obispo"
+  },
+  {
+    "city_id": 217,
+    "name": "San Salvador"
+  },
+  {
+    "city_id": 218,
+    "name": "Santiago"
+  },
+  {
+    "city_id": 219,
+    "name": "Santo Domingo"
+  },
+  {
+    "city_id": 220,
+    "name": "Sao Paulo"
+  },
+  {
+    "city_id": 221,
+    "name": "Sarajevo"
+  },
+  {
+    "city_id": 222,
+    "name": "Saskatoon"
+  },
+  {
+    "city_id": 223,
+    "name": "Seattle"
+  },
+  {
+    "city_id": 224,
+    "name": "Seoul"
+  },
+  {
+    "city_id": 225,
+    "name": "Seville"
+  },
+  {
+    "city_id": 226,
+    "name": "Shanghai"
+  },
+  {
+    "city_id": 227,
+    "name": "Singapore"
+  },
+  {
+    "city_id": 228,
+    "name": "Skopje"
+  },
+  {
+    "city_id": 229,
+    "name": "Sofia"
+  },
+  {
+    "city_id": 230,
+    "name": "St. Louis"
+  },
+  {
+    "city_id": 231,
+    "name": "Stockholm"
+  },
+  {
+    "city_id": 232,
+    "name": "Stuttgart"
+  },
+  {
+    "city_id": 233,
+    "name": "Sydney"
+  },
+  {
+    "city_id": 234,
+    "name": "Taipei"
+  },
+  {
+    "city_id": 235,
+    "name": "Tallinn"
+  },
+  {
+    "city_id": 236,
+    "name": "Tampa Bay Area"
+  },
+  {
+    "city_id": 237,
+    "name": "Tampere"
+  },
+  {
+    "city_id": 238,
+    "name": "Tartu"
+  },
+  {
+    "city_id": 239,
+    "name": "Tashkent"
+  },
+  {
+    "city_id": 240,
+    "name": "Tbilisi"
+  },
+  {
+    "city_id": 241,
+    "name": "Tehran"
+  },
+  {
+    "city_id": 242,
+    "name": "Tel Aviv"
+  },
+  {
+    "city_id": 243,
+    "name": "The Hague"
+  },
+  {
+    "city_id": 244,
+    "name": "Thessaloniki"
+  },
+  {
+    "city_id": 245,
+    "name": "Tokyo"
+  },
+  {
+    "city_id": 246,
+    "name": "Toronto"
+  },
+  {
+    "city_id": 247,
+    "name": "Toulouse"
+  },
+  {
+    "city_id": 248,
+    "name": "Tunis"
+  },
+  {
+    "city_id": 249,
+    "name": "Turin"
+  },
+  {
+    "city_id": 250,
+    "name": "Turku"
+  },
+  {
+    "city_id": 251,
+    "name": "Uppsala"
+  },
+  {
+    "city_id": 252,
+    "name": "Utrecht"
+  },
+  {
+    "city_id": 253,
+    "name": "Valencia"
+  },
+  {
+    "city_id": 254,
+    "name": "Valletta"
+  },
+  {
+    "city_id": 255,
+    "name": "Vancouver"
+  },
+  {
+    "city_id": 256,
+    "name": "Victoria"
+  },
+  {
+    "city_id": 257,
+    "name": "Vienna"
+  },
+  {
+    "city_id": 258,
+    "name": "Vilnius"
+  },
+  {
+    "city_id": 259,
+    "name": "Warsaw"
+  },
+  {
+    "city_id": 260,
+    "name": "Washington, D.C."
+  },
+  {
+    "city_id": 261,
+    "name": "Wellington"
+  },
+  {
+    "city_id": 262,
+    "name": "Winnipeg"
+  },
+  {
+    "city_id": 263,
+    "name": "Wroclaw"
+  },
+  {
+    "city_id": 264,
+    "name": "Yerevan"
+  },
+  {
+    "city_id": 265,
+    "name": "Zagreb"
+  },
+  {
+    "city_id": 266,
+    "name": "Zurich"
+  }
+]
