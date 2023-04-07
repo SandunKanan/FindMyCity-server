@@ -304,7 +304,7 @@ const ranges2 = [0, 2, 2.5, 2.9, 3.3, 3.7, 4.1, 4.5, 5, 7, 100]
 const costOfLivingFactors = []
 
 city_list.forEach((city) => {
-    const nextCity = city.toLowerCase().replaceAll(",", "").replaceAll(" ", "-")
+    const nextCity = city.toLowerCase().replaceAll(",", "").replaceAll(" ", "-").replaceAll(".", "").replaceAll("Galway", "gaillimh")
     const costs = getCostOfLivingDetails(nextCity)
     const monthlyCosts = costs.map(factor => ({label: factor.label, cost: (factor.currency_dollar_value*multipliers[factor.label]*2)}))
     let totalOtherCost = 0

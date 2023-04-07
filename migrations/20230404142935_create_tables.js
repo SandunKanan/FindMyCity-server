@@ -183,10 +183,36 @@ exports.up = function(knex) {
                 .onUpdate('CASCADE')
                 .onDelete('CASCADE');
         })
+        .createTable('score_categories', table => {
+            table.increments('id').primary();
+            table.string('category').notNullable()
+        })
+        .createTable('scores', (table) => {
+            table.increments('id').primary();
+            table
+                .integer('city_id')
+                .unsigned()
+                .notNullable()
+                .references('city_id')
+                .inTable('cities')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
+            table
+                .integer('category_id')
+                .unsigned()
+                .notNullable()
+                .references('id')
+                .inTable('score_categories')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
+            table.decimal('score').notNullable();
+        })
 }
 
 exports.down = (knex) => {
     return knex.schema
+        .dropTable('scores')
+        .dropTable('score_categories')
         .dropTable('travel_connectivity')
         .dropTable('commute')
         .dropTable('safety')

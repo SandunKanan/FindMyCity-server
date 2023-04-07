@@ -11,6 +11,8 @@ const enviroQualityData = require('../seed_data/enviroQuality');
 const safetyData = require('../seed_data/safety');
 const commuteData = require('../seed_data/commute');
 const travelConnectivityData = require('../seed_data/travelConnectivity');
+const score_categories = require('../seed_data/score_categories');
+const scores = require('../seed_data/scores');
 
 exports.seed = function (knex) {
   return knex('cities').del()
@@ -32,12 +34,17 @@ exports.seed = function (knex) {
     .then(() => {return knex('language').del()})
     .then(() => {return knex('language').insert(languageData);})
     .then(() => {return knex('environmental_quality').del()})
+    .then(() => {return knex('environmental_quality').insert(enviroQualityData)})
     .then(() => {return knex('safety').del();})
     .then(() => {return knex('safety').insert(safetyData);})
     .then(() => {return knex('commute').del()})
     .then(() => {return knex('commute').insert(commuteData);})
     .then(() => {return knex('travel_connectivity').del()})
     .then(() => {return knex('travel_connectivity').insert(travelConnectivityData);})
+    .then(() => {return knex('score_categories').del();})
+    .then(() => {return knex('score_categories').insert(score_categories);})
+    .then(() => {return knex('scores').del();})
+    .then(() => {return knex('scores').insert(scores);})
 };
 
 // // import seed data files, arrays of objects

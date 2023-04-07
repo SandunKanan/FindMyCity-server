@@ -1,23 +1,27 @@
 const knex = require("knex")(require("./knexfile"));
 
-function run(input) {
+async function run(input) {
+  try {
     const { role, exp } = input;
-    return knex("salaries")
+    const salaries = await knex("salaries")
       .select("salaries.amount", { percentile: "percentiles.name" }, { city_name: "cities.name" }, "jobs.title")
       .join("cities", { "salaries.city_id": "cities.city_id" })
       .join("jobs", { "salaries.job_id": "jobs.job_id" })
       .join("percentiles", { "salaries.percentile_id": "percentiles.percentile_id" })
       .where({ "jobs.title": role })
       .andWhere({ "percentiles.name": exp })
-      .whereIn("cities.name", ["Barcelona", "Zurich", "Sydney"])
-      .limit(5)
-      .then((salaries) => {
-        const outputData = { salaries };
-        return outputData;
-      })
-      .catch((err) => {
-        throw err;
-      });
+      .limit(5);
+    const outputData = { salaries };
+
+    const costOfLiving = await knex("cost_of_living")
+      .select("*")
+      .join("cities", { "cost_of_living.city_id": "cities.city_id" })
+      
+
+    return outputData;
+  } catch (err) {
+    throw err;
   }
+}
 
 module.exports = { run };
