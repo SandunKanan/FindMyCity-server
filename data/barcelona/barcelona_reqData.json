@@ -1,0 +1,245 @@
+[
+  {
+    "Business Freedom": [
+      "Business freedom",
+      "Business freedom [Teleport score]",
+      "Freedom from corruption",
+      "Freedom from corruption [Teleport score]",
+      "Lack of labor restrictions",
+      "Lack of labor restrictions [Teleport score]",
+      "Time to open a business",
+      "Time to open a business [Teleport score]"
+    ]
+  },
+  {
+    "City Size": [
+      "Urban area population (millions)",
+      "Population density in people/sq km in UA center.",
+      "Population density in people/sq km over full UA as defined by bounding box."
+    ]
+  },
+  {
+    "Climate": [
+      "Average day length (hours)",
+      "Average number of clear days per year",
+      "Average number of rainy days per year",
+      "Average high temperature (Celsius)",
+      "Average low temperature (Celsius)",
+      "Average daily solar radiation (Mj/m²)",
+      "Weather type"
+    ]
+  },
+  {
+    "Cost of Living": [
+      "Inflation [Teleport score]",
+      "A kilogram of Apples",
+      "Bread",
+      "A Cappuccino",
+      "Movie ticket",
+      "Monthly fitness club membership",
+      "A beer",
+      "Monthly public transport",
+      "Lunch",
+      "5km taxi ride",
+      "Price of a meal at a restaurant"
+    ]
+  },
+  {
+    "Leisure & Culture": [
+      "Art galleries [Teleport score]",
+      "Art galleries",
+      "Cinemas [Teleport score]",
+      "Cinemas",
+      "Comedy clubs [Teleport score]",
+      "Comedy clubs",
+      "Concerts [Teleport score]",
+      "Concert venues",
+      "Historical sites [Teleport score]",
+      "Historical sites",
+      "Museums [Teleport score]",
+      "Museums",
+      "Performing arts [Teleport score]",
+      "Performing art venues",
+      "Sports [Teleport score]",
+      "Sport venues",
+      "Zoos [Teleport score]",
+      "Zoos"
+    ]
+  },
+  {
+    "Economy": [
+      "Currency for urban area",
+      "Currency exchange rate per US dollar for urban area",
+      "GDP growth rate",
+      "GDP growth rate [Teleport score]",
+      "GDP per capita",
+      "GDP per capita [Teleport score]"
+    ]
+  },
+  {
+    "Education": [
+      "Percent of happy students",
+      "Percent of top performers in PISA math test",
+      "Percent of low performers in PISA math test",
+      "Country mean scores in PISA math test",
+      "Percent of top performers in PISA reading test",
+      "Percent of low performers in PISA reading test",
+      "Country mean scores in PISA reading test",
+      "Percent of top performers in PISA science test",
+      "Percent of low performers in PISA science test",
+      "Country mean scores in PISA science test",
+      "PISA math ranking (high school)",
+      "PISA ranking",
+      "PISA ranking (high school) [Teleport score]",
+      "PISA reading (high school)",
+      "PISA science (high school)",
+      "University quality [Teleport score]",
+      "Best university in ranking",
+      "Best university ranking"
+    ]
+  },
+  {
+    "Healthcare": [
+      "Healthcare expenditure [Teleport score]",
+      "Life expectancy (years)",
+      "Life expectancy [Teleport score]",
+      "Healthcare quality [Teleport score]"
+    ]
+  },
+  {
+    "Housing": [
+      "Large apartment",
+      "Medium apartment",
+      "Small apartment",
+      "Rent index [Teleport score]"
+    ]
+  },
+  {
+    "Internal application use": [
+      "Percent of elderly people (65+ years) in country",
+      "Life expectancy at birth in country",
+      "Median age in country",
+      "Unemployment rate in country"
+    ]
+  },
+  {
+    "Job Market": [
+      "Maximum amount paid by employer as social security taxes per employee",
+      "Employer social security taxes per employee",
+      "Startup jobs available",
+      "Startup job availability [Teleport score]",
+      "Startup salary [Teleport score]",
+      "Startup salary"
+    ]
+  },
+  {
+    "Language": [
+      "English skills",
+      "English skills [Teleport score]",
+      "Spoken languages"
+    ]
+  },
+  {
+    "Tolerance": [
+      "LGBT adoption rights",
+      "LGBT age of consent",
+      "LGBT gender changing rights",
+      "LGBT conversion therapy regulations",
+      "LGBT discrimination legality",
+      "LGBT blood donation regulations",
+      "LGBT employment discrimination legality",
+      "LGBT homosexuality rights",
+      "LGBT housing discrimination legality",
+      "LGBT marriage rights",
+      "Homosexuality acceptance (percent of the surveyed population in favor)",
+      "LGBT Equality Index",
+      "LGBT Equality Index [Teleport score]",
+      "Tolerance towards minorities [Teleport score]"
+    ]
+  },
+  {
+    "Internet Access": [
+      "Download speed (Mbps)",
+      "Internet access (download) [Teleport score]",
+      "Upload speed (Mbps)",
+      "Internet access (upload) [Teleport score]"
+    ]
+  },
+  {
+    "Outdoors": [
+      "Urban area elevation (meters)",
+      "Presence of hills in city",
+      "Presence of mountains in city",
+      "Median peak in meters",
+      "Elevation (hills or mountains) [Teleport score]",
+      "Water access [Teleport score]",
+      "Seaside access"
+    ]
+  },
+  {
+    "Environmental Quality": [
+      "Air quality [Teleport score]",
+      "Cleanliness [Teleport score]",
+      "Drinking water quality [Teleport score]",
+      "Urban greenery [Teleport score]"
+    ]
+  },
+  {
+    "Safety": [
+      "Crime rate [Teleport score]",
+      "Gun-related deaths per 100,000 residents per year",
+      "Lack of gun related deaths [Teleport score]",
+      "Guns per 100 residents",
+      "Lack of guns [Teleport score]",
+      "Lack of guns and gun-related deaths [Teleport score]"
+    ]
+  },
+  {
+    "Startups": [
+      "Coworking spaces [Teleport score]",
+      "Startup events",
+      "Number of startup events in the last 12 months",
+      "Startup events [Teleport score]",
+      "Total number of startups",
+      "Number of upcoming meetup events",
+      "Meetups groups",
+      "Meetups members",
+      "Meetups [Teleport score]",
+      "Number of investors",
+      "Average monthly increase in number of startups",
+      "Average monthly increase in number of startups [Teleport score]",
+      "Startup climate scene [Teleport score]",
+      "Startups [Teleport score]",
+      "Coworking spaces on WorkFrom.co"
+    ]
+  },
+  {
+    "Taxation": [
+      "Profit tax (%% of profit)",
+      "Effective company profit tax rate on payouts as dividends [Teleport score]",
+      "Income tax level [Teleport score]",
+      "VAT (Sales Tax)",
+      "Time overhead to file company taxes"
+    ]
+  },
+  {
+    "Commute": [
+      "Human city page",
+      "Traffic handling [Teleport score]"
+    ]
+  },
+  {
+    "Travel Connectivity": [
+      "Airport hub",
+      "Airport hub [Teleport score]",
+      "Intercity train connectivity [Teleport score]"
+    ]
+  },
+  {
+    "Venture Capital": [
+      "Venture capital [Teleport score]",
+      "Funding accelerator names",
+      "Number of funding accelerators"
+    ]
+  }
+]

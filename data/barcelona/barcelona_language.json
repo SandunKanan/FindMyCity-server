@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": "ENGLISH-SKILLS-DETAIL",
+      "int_value": 56.66,
+      "label": "English skills",
+      "type": "int"
+    },
+    {
+      "float_value": 0.5666,
+      "id": "ENGLISH-SKILLS-TELESCORE",
+      "label": "English skills [Teleport score]",
+      "type": "float"
+    },
+    {
+      "id": "SPOKEN-LANGUAGES",
+      "label": "Spoken languages",
+      "string_value": "Spanish, Catalan",
+      "type": "string"
+    }
+  ],
+  "id": "LANGUAGE",
+  "label": "Language"
+}

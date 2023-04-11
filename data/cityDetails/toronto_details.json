@@ -1,0 +1,1628 @@
+[
+  {
+    "data": [
+      {
+        "float_value": 81.8,
+        "id": "BUSINESS-FREEDOM",
+        "label": "Business freedom",
+        "type": "float"
+      },
+      {
+        "float_value": 0.8027,
+        "id": "BUSINESS-FREEDOM-TELESCORE",
+        "label": "Business freedom [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 81,
+        "id": "CORRUPTION-FREEDOM",
+        "label": "Freedom from corruption",
+        "type": "float"
+      },
+      {
+        "float_value": 0.8871,
+        "id": "CORRUPTION-FREEDOM-TELESCORE",
+        "label": "Freedom from corruption [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 72.6,
+        "id": "LABOR-RESTRICTIONS",
+        "label": "Lack of labor restrictions",
+        "type": "float"
+      },
+      {
+        "float_value": 0.6705,
+        "id": "LABOR-RESTRICTIONS-TELESCORE",
+        "label": "Lack of labor restrictions [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 1.5,
+        "id": "TIME-TO-OPEN-BUSINESS",
+        "label": "Time to open a business",
+        "type": "float"
+      },
+      {
+        "float_value": 1,
+        "id": "TIME-TO-OPEN-BUSINESS-TELESCORE",
+        "label": "Time to open a business [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "BUSINESS-FREEDOM",
+    "label": "Business Freedom"
+  },
+  {
+    "data": [
+      {
+        "float_value": 7.692,
+        "id": "POPULATION-SIZE",
+        "label": "Urban area population (millions)",
+        "type": "float"
+      },
+      {
+        "float_value": 3067.38330078125,
+        "id": "POPULATION-UA-CENTER-DENSITY",
+        "label": "Population density in people/sq km in UA center.",
+        "type": "float"
+      },
+      {
+        "float_value": 847.3858876418947,
+        "id": "POPULATION-UA-DENSITY",
+        "label": "Population density in people/sq km over full UA as defined by bounding box.",
+        "type": "float"
+      }
+    ],
+    "id": "CITY-SIZE",
+    "label": "City Size"
+  },
+  {
+    "data": [
+      {
+        "float_value": 12.7,
+        "id": "WEATHER-AV-DAY-LENGTH",
+        "label": "Average day length (hours)",
+        "type": "float"
+      },
+      {
+        "id": "WEATHER-AVERAGE-HIGH",
+        "label": "Average high temperature (Celsius)",
+        "string_value": "12.9",
+        "type": "string"
+      },
+      {
+        "id": "WEATHER-AVERAGE-LOW",
+        "label": "Average low temperature (Celsius)",
+        "string_value": "2.5",
+        "type": "string"
+      },
+      {
+        "float_value": "13.9",
+        "id": "WEATHER-SUNSHINE-AMOUNT",
+        "label": "Average daily solar radiation (Mj/m²)",
+        "type": "float"
+      },
+      {
+        "id": "WEATHER-TYPE",
+        "label": "Weather type",
+        "string_value": "Warm Summer Continental Climate",
+        "type": "string"
+      }
+    ],
+    "id": "CLIMATE",
+    "label": "Climate"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.5271,
+        "id": "CONSUMER-PRICE-INDEX-TELESCORE",
+        "label": "Inflation [Teleport score]",
+        "type": "float"
+      },
+      {
+        "currency_dollar_value": 3,
+        "id": "COST-APPLES",
+        "label": "A kilogram of Apples",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 0.88,
+        "id": "COST-BREAD",
+        "label": "Bread",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 3.7,
+        "id": "COST-CAPPUCCINO",
+        "label": "A Cappuccino",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 12,
+        "id": "COST-CINEMA",
+        "label": "Movie ticket",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 48,
+        "id": "COST-FITNESS-CLUB",
+        "label": "Monthly fitness club membership",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 2.3,
+        "id": "COST-IMPORT-BEER",
+        "label": "A beer",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 110,
+        "id": "COST-PUBLIC-TRANSPORT",
+        "label": "Monthly public transport",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 14,
+        "id": "COST-RESTAURANT-MEAL",
+        "label": "Lunch",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 10,
+        "id": "COST-TAXI",
+        "label": "5km taxi ride",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 67.53,
+        "id": "RESTAURANT-PRICE-INDEX",
+        "label": "Price of a meal at a restaurant",
+        "type": "currency_dollar"
+      }
+    ],
+    "id": "COST-OF-LIVING",
+    "label": "Cost of Living"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.8412,
+        "id": "CULTURE-ART-GALLERIES-TELESCORE",
+        "label": "Art galleries [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-ART-GALLERIES-VENUE-COUNT",
+        "int_value": 177,
+        "label": "Art galleries",
+        "type": "int"
+      },
+      {
+        "float_value": 0.7839,
+        "id": "CULTURE-CINEMA-TELESCORE",
+        "label": "Cinemas [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-CINEMAS-VENUE-COUNT",
+        "int_value": 149,
+        "label": "Cinemas",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8932,
+        "id": "CULTURE-COMEDY-CLUBS-TELESCORE",
+        "label": "Comedy clubs [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-COMEDY-CLUBS-VENUE-COUNT",
+        "int_value": 80,
+        "label": "Comedy clubs",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8293,
+        "id": "CULTURE-CONCERTS-TELESCORE",
+        "label": "Concerts [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-CONCERTS-VENUE-COUNT",
+        "int_value": 212,
+        "label": "Concert venues",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8763,
+        "id": "CULTURE-HISTORICAL-SITES-TELESCORE",
+        "label": "Historical sites [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-HISTORICAL-SITES-VENUE-COUNT",
+        "int_value": 126,
+        "label": "Historical sites",
+        "type": "int"
+      },
+      {
+        "float_value": 0.6889,
+        "id": "CULTURE-MUSEUMS-TELESCORE",
+        "label": "Museums [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-MUSEUMS-VENUE-COUNT",
+        "int_value": 111,
+        "label": "Museums",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8924,
+        "id": "CULTURE-PERFORMING-ARTS-TELESCORE",
+        "label": "Performing arts [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-PERFORMING-ARTS-VENUE-COUNT",
+        "int_value": 278,
+        "label": "Performing art venues",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8746,
+        "id": "CULTURE-SPORTS-TELESCORE",
+        "label": "Sports [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-SPORTS-VENUE-COUNT",
+        "int_value": 84,
+        "label": "Sport venues",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8675,
+        "id": "CULTURE-ZOOS-TELESCORE",
+        "label": "Zoos [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "CULTURE-ZOOS-VENUE-COUNT",
+        "int_value": 79,
+        "label": "Zoos",
+        "type": "int"
+      }
+    ],
+    "id": "CULTURE",
+    "label": "Leisure & Culture"
+  },
+  {
+    "data": [
+      {
+        "id": "CURRENCY-URBAN-AREA",
+        "label": "Currency for urban area",
+        "string_value": "CAD",
+        "type": "string"
+      },
+      {
+        "float_value": 1.2676461121,
+        "id": "CURRENCY-URBAN-AREA-EXCHANGE-RATE",
+        "label": "Currency exchange rate per US dollar for urban area",
+        "type": "float"
+      },
+      {
+        "id": "GDP-GROWTH-RATE",
+        "label": "GDP growth rate",
+        "percent_value": 0.02532,
+        "type": "percent"
+      },
+      {
+        "float_value": 0.4499,
+        "id": "GDP-GROWTH-RATE-TELESCORE",
+        "label": "GDP growth rate [Teleport score]",
+        "type": "float"
+      },
+      {
+        "currency_dollar_value": 44843.442,
+        "id": "GDP-PER-CAPITA",
+        "label": "GDP per capita",
+        "type": "currency_dollar"
+      },
+      {
+        "float_value": 0.7182,
+        "id": "GDP-PER-CAPITA-TELESCORE",
+        "label": "GDP per capita [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "ECONOMY",
+    "label": "Economy"
+  },
+  {
+    "data": [
+      {
+        "id": "PISA-DETAIL-HAPPINESS",
+        "label": "Percent of happy students",
+        "percent_value": 0.7924683349556274,
+        "type": "percent"
+      },
+      {
+        "id": "PISA-DETAIL-MATH-HIGH-PERFORMERS",
+        "label": "Percent of top performers in PISA math test",
+        "percent_value": 0.16395889881368156,
+        "type": "percent"
+      },
+      {
+        "id": "PISA-DETAIL-MATH-LOW-PERFORMERS",
+        "label": "Percent of low performers in PISA math test",
+        "percent_value": 0.13828946464512126,
+        "type": "percent"
+      },
+      {
+        "float_value": 515.4297028079022,
+        "id": "PISA-DETAIL-MATH-MEAN-SCORES",
+        "label": "Country mean scores in PISA math test",
+        "type": "float"
+      },
+      {
+        "id": "PISA-DETAIL-READING-HIGH-PERFORMERS",
+        "label": "Percent of top performers in PISA reading test",
+        "percent_value": 0.12856778143607905,
+        "type": "percent"
+      },
+      {
+        "id": "PISA-DETAIL-READING-LOW-PERFORMERS",
+        "label": "Percent of low performers in PISA reading test",
+        "percent_value": 0.10894788089799351,
+        "type": "percent"
+      },
+      {
+        "float_value": 523.1240029666766,
+        "id": "PISA-DETAIL-READING-MEAN-SCORES",
+        "label": "Country mean scores in PISA reading test",
+        "type": "float"
+      },
+      {
+        "id": "PISA-DETAIL-SCIENCE-HIGH-PERFORMERS",
+        "label": "Percent of top performers in PISA science test",
+        "percent_value": 0.11311272404470786,
+        "type": "percent"
+      },
+      {
+        "id": "PISA-DETAIL-SCIENCE-LOW-PERFORMERS",
+        "label": "Percent of low performers in PISA science test",
+        "percent_value": 0.10422230388408599,
+        "type": "percent"
+      },
+      {
+        "float_value": 525.4412921426247,
+        "id": "PISA-DETAIL-SCIENCE-MEAN-SCORES",
+        "label": "Country mean scores in PISA science test",
+        "type": "float"
+      },
+      {
+        "id": "PISA-MATHS-RANKING",
+        "int_value": 9,
+        "label": "PISA math ranking (high school)",
+        "type": "int"
+      },
+      {
+        "id": "PISA-RANKING",
+        "int_value": 5,
+        "label": "PISA ranking",
+        "type": "int"
+      },
+      {
+        "float_value": 0.9665,
+        "id": "PISA-RANKING-TELESCORE",
+        "label": "PISA ranking (high school) [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "PISA-READING-RANKING",
+        "int_value": 2,
+        "label": "PISA reading (high school)",
+        "type": "int"
+      },
+      {
+        "id": "PISA-SCIENCE-RANKING",
+        "int_value": 6,
+        "label": "PISA science (high school)",
+        "type": "int"
+      },
+      {
+        "float_value": 0.554,
+        "id": "QUALITY-OF-UNIVERSITIES-TELESCORE",
+        "label": "University quality [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "UNIVERSITIES-BEST-RANKED-NAME",
+        "label": "Best university in ranking",
+        "string_value": "University of Toronto",
+        "type": "string"
+      },
+      {
+        "id": "UNIVERSITIES-BEST-RANKED-RANK",
+        "int_value": 22,
+        "label": "Best university ranking",
+        "type": "int"
+      }
+    ],
+    "id": "EDUCATION",
+    "label": "Education"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.9068,
+        "id": "HEALTHCARE-COST-TELESCORE",
+        "label": "Healthcare expenditure [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 82.1746,
+        "id": "HEALTHCARE-LIFE-EXPECTANCY",
+        "label": "Life expectancy (years)",
+        "type": "float"
+      },
+      {
+        "float_value": 0.929,
+        "id": "HEALTHCARE-LIFE-EXPECTANCY-TELESCORE",
+        "label": "Life expectancy [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.7953,
+        "id": "HEALTHCARE-QUALITY-TELESCORE",
+        "label": "Healthcare quality [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "HEALTHCARE",
+    "label": "Healthcare"
+  },
+  {
+    "data": [
+      {
+        "currency_dollar_value": 1900,
+        "id": "APARTMENT-RENT-LARGE",
+        "label": "Large apartment",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 1600,
+        "id": "APARTMENT-RENT-MEDIUM",
+        "label": "Medium apartment",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 1300,
+        "id": "APARTMENT-RENT-SMALL",
+        "label": "Small apartment",
+        "type": "currency_dollar"
+      },
+      {
+        "float_value": 0.4647,
+        "id": "RENT-INDEX-TELESCORE",
+        "label": "Rent index [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "HOUSING",
+    "label": "Housing"
+  },
+  {
+    "data": [
+      {
+        "id": "ELDERLY-PEOPLE",
+        "label": "Percent of elderly people (65+ years) in country",
+        "percent_value": 0.001818,
+        "type": "percent"
+      },
+      {
+        "float_value": 81.9,
+        "id": "LIFE-EXPECTANCY",
+        "label": "Life expectancy at birth in country",
+        "type": "float"
+      },
+      {
+        "float_value": 42,
+        "id": "MEDIAN-AGE",
+        "label": "Median age in country",
+        "type": "float"
+      },
+      {
+        "id": "UNEMPLOYMENT-RATE",
+        "label": "Unemployment rate in country",
+        "percent_value": 0.0007099999999999999,
+        "type": "percent"
+      }
+    ],
+    "id": "INTERNAL",
+    "label": "Internal application use"
+  },
+  {
+    "data": [
+      {
+        "currency_dollar_value": 82,
+        "id": "EMPLOYER-SOCIAL-TAXES-CAP-OTHER",
+        "label": "Maximum amount paid by employer as other social taxes per employee",
+        "type": "currency_dollar"
+      },
+      {
+        "currency_dollar_value": 156,
+        "id": "EMPLOYER-SOCIAL-TAXES-CAP-SOC-SEC",
+        "label": "Maximum amount paid by employer as social security taxes per employee",
+        "type": "currency_dollar"
+      },
+      {
+        "id": "EMPLOYER-SOCIAL-TAXES-OTHER",
+        "label": "Employer social taxes per employee",
+        "percent_value": 0.02632,
+        "type": "percent"
+      },
+      {
+        "id": "EMPLOYER-SOCIAL-TAXES-SOC-SEC",
+        "label": "Employer social security taxes per employee",
+        "percent_value": 0.0495,
+        "type": "percent"
+      },
+      {
+        "id": "STARTUP-JOBS-AVAILABLE",
+        "int_value": 888,
+        "label": "Startup jobs available",
+        "type": "int"
+      },
+      {
+        "float_value": 0.9169,
+        "id": "STARTUP-JOBS-AVAILABLE-TELESCORE",
+        "label": "Startup job availability [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.6205,
+        "id": "STARTUP-SALARIES",
+        "label": "Startup salary [Teleport score]",
+        "type": "float"
+      },
+      {
+        "currency_dollar_value": 56421,
+        "id": "STARTUP-SALARIES-DETAIL",
+        "label": "Startup salary",
+        "type": "currency_dollar"
+      }
+    ],
+    "id": "JOB-MARKET",
+    "label": "Job Market"
+  },
+  {
+    "data": [
+      {
+        "id": "ENGLISH-SKILLS-DETAIL",
+        "int_value": 100,
+        "label": "English skills",
+        "type": "int"
+      },
+      {
+        "float_value": 1,
+        "id": "ENGLISH-SKILLS-TELESCORE",
+        "label": "English skills [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "SPOKEN-LANGUAGES",
+        "label": "Spoken languages",
+        "string_value": "English, French",
+        "type": "string"
+      }
+    ],
+    "id": "LANGUAGE",
+    "label": "Language"
+  },
+  {
+    "data": [
+      {
+        "id": "LGBT-DETAIL-ADOPTION",
+        "label": "LGBT adoption rights",
+        "string_value": "✔ Legal",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-AGE-OF-CONSENT",
+        "label": "LGBT age of consent",
+        "string_value": "✖ Unequal",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-CHANGING-GENDER",
+        "label": "LGBT gender changing rights",
+        "string_value": "Varies by Region",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-CONVERSION-THERAPY",
+        "label": "LGBT conversion therapy regulations",
+        "string_value": "Varies by Region",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-DISCRIMINATION",
+        "label": "LGBT discrimination legality",
+        "string_value": "Illegal in some contexts",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-DONATING-BLOOD",
+        "label": "LGBT blood donation regulations",
+        "string_value": "✖ Banned (5-year deferral)",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-EMPLOYMENT-DISCRIMINATION",
+        "label": "LGBT employment discrimination legality",
+        "string_value": "Sexual orientation only",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-HOMOSEXUALITY",
+        "label": "LGBT homosexuality rights",
+        "string_value": "✔ Legal",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-HOUSING-DISCRIMINATION",
+        "label": "LGBT housing discrimination legality",
+        "string_value": "Varies by Region",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-MARRIAGE",
+        "label": "LGBT marriage rights",
+        "string_value": "✔ Legal",
+        "type": "string"
+      },
+      {
+        "id": "LGBT-DETAIL-OPINION-PERCENT-IN-FAVOR",
+        "label": "Homosexuality acceptance (percent of the surveyed population in favor)",
+        "percent_value": 0.8,
+        "type": "percent"
+      },
+      {
+        "float_value": 82.02,
+        "id": "LGBT-INDEX",
+        "label": "LGBT Equality Index",
+        "type": "float"
+      },
+      {
+        "float_value": 0.8369,
+        "id": "LGBT-INDEX-TELESCORE",
+        "label": "LGBT Equality Index [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.7487,
+        "id": "TOLERANCE-TOWARDS-MINORITIES-TELESCORE",
+        "label": "Tolerance towards minorities [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "MINORITIES",
+    "label": "Tolerance"
+  },
+  {
+    "data": [
+      {
+        "float_value": 28.12,
+        "id": "NETWORK-DOWNLOAD",
+        "label": "Download speed (Mbps)",
+        "type": "float"
+      },
+      {
+        "float_value": 0.4534,
+        "id": "NETWORK-DOWNLOAD-TELESCORE",
+        "label": "Internet access (download) [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 9.48,
+        "id": "NETWORK-UPLOAD",
+        "label": "Upload speed (Mbps)",
+        "type": "float"
+      },
+      {
+        "float_value": 0.4232,
+        "id": "NETWORK-UPLOAD-TELESCORE",
+        "label": "Internet access (upload) [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "NETWORK",
+    "label": "Internet Access"
+  },
+  {
+    "data": [
+      {
+        "float_value": 76,
+        "id": "ELEVATION",
+        "label": "Urban area elevation (meters)",
+        "type": "float"
+      },
+      {
+        "float_value": 543.5,
+        "id": "ELEVATION-PEAKS",
+        "label": "Median peak in meters",
+        "type": "float"
+      },
+      {
+        "float_value": 0.2328,
+        "id": "ELEVATION-PEAKS-TELESCORE",
+        "label": "Elevation (hills or mountains) [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.886,
+        "id": "SEASIDE-ACCESS-TELESCORE",
+        "label": "Water access [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 1,
+        "id": "SEASIDE-WATERBODY",
+        "label": "Seaside waterbody",
+        "type": "float"
+      }
+    ],
+    "id": "OUTDOORS",
+    "label": "Outdoors"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.7199,
+        "id": "AIR-POLLUTION-TELESCORE",
+        "label": "Air quality [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.7092,
+        "id": "CLEANLINESS-TELESCORE",
+        "label": "Cleanliness [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.7119,
+        "id": "DRINKING-WATER-QUALITY-TELESCORE",
+        "label": "Drinking water quality [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.73,
+        "id": "URBAN-GREENERY-TELESCORE",
+        "label": "Urban greenery [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "POLLUTION",
+    "label": "Environmental Quality"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.7056,
+        "id": "CRIME-RATE-TELESCORE",
+        "label": "Crime rate [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "GUN-DEATH-RATE",
+        "int_value": 1.97,
+        "label": "Gun-related deaths per 100,000 residents per year",
+        "type": "int"
+      },
+      {
+        "float_value": 0.9478,
+        "id": "GUN-DEATH-SCORE-TELESCORE",
+        "label": "Lack of gun related deaths [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "GUN-OWNERSHIP",
+        "int_value": 30.8,
+        "label": "Guns per 100 residents",
+        "type": "int"
+      },
+      {
+        "float_value": 0.8331,
+        "id": "GUN-OWNERSHIP-SCORE-TELESCORE",
+        "label": "Lack of guns [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.8905,
+        "id": "GUN-SCORE-TELESCORE",
+        "label": "Lack of guns and gun-related deaths [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "SAFETY",
+    "label": "Safety"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.8828,
+        "id": "COWORKING-SPACES-TELESCORE",
+        "label": "Coworking spaces [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "EVENTS-COUNT",
+        "int_value": 1145,
+        "label": "Startup events",
+        "type": "int"
+      },
+      {
+        "id": "EVENTS-LAST-12-MONTHS",
+        "int_value": 4639,
+        "label": "Number of startup events in the last 12 months",
+        "type": "int"
+      },
+      {
+        "float_value": 1,
+        "id": "EVENTS-TELESCORE",
+        "label": "Startup events [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "FUNDERBEAM-TOTAL-STARTUPS",
+        "int_value": 2640,
+        "label": "Total number of startups",
+        "type": "int"
+      },
+      {
+        "id": "MEETUPS-DETAIL-TOTAL-EVENTS",
+        "int_value": 192,
+        "label": "Number of upcoming meetup events",
+        "type": "int"
+      },
+      {
+        "id": "MEETUPS-GROUPS",
+        "int_value": 200,
+        "label": "Meetups groups",
+        "type": "int"
+      },
+      {
+        "id": "MEETUPS-MEMBERS",
+        "int_value": 256440,
+        "label": "Meetups members",
+        "type": "int"
+      },
+      {
+        "float_value": 0.9519,
+        "id": "MEETUPS-TELESCORE",
+        "label": "Meetups [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "STARTUP-CLIMATE-INVESTORS",
+        "int_value": 483,
+        "label": "Number of investors",
+        "type": "int"
+      },
+      {
+        "id": "STARTUP-CLIMATE-NEW-STARTUPS",
+        "int_value": 77,
+        "label": "Average monthly increase in number of startups",
+        "type": "int"
+      },
+      {
+        "float_value": 1,
+        "id": "STARTUP-CLIMATE-NEW-STARTUPS-TELESCORE",
+        "label": "Average monthly increase in number of startups [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.8557,
+        "id": "STARTUP-CLIMATE-SCENE-TELESCORE",
+        "label": "Startup climate scene [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.9962,
+        "id": "STARTUP-CLIMATE-STARTUPS-TELESCORE",
+        "label": "Startups [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "WORKFROM-COWORKING-SPACES-COUNT",
+        "int_value": 75,
+        "label": "Coworking spaces on WorkFrom.co",
+        "type": "int"
+      }
+    ],
+    "id": "STARTUPS",
+    "label": "Startups"
+  },
+  {
+    "data": [
+      {
+        "id": "COMPANY-PROFIT-TAX-RATE",
+        "label": "Profit tax (%% of profit)",
+        "percent_value": 0.21,
+        "type": "percent"
+      },
+      {
+        "float_value": 0.9574,
+        "id": "COMPANY-PROFIT-TAX-RATE-TELESCORE",
+        "label": "Effective company profit tax rate on payouts as dividends [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.4975,
+        "id": "INCOME-TAX-TELESCORE",
+        "label": "Income tax level [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "TAX-VAT",
+        "label": "VAT (Sales Tax)",
+        "percent_value": 0.05,
+        "type": "percent"
+      },
+      {
+        "id": "TIME-OVERHEAD-COMPANY-TAXES",
+        "int_value": 131,
+        "label": "Time overhead to file company taxes",
+        "type": "int"
+      }
+    ],
+    "id": "TAXATION",
+    "label": "Taxation"
+  },
+  {
+    "data": [
+      {
+        "id": "HUMAN-CITIES-PAGE-URLS",
+        "label": "Human city page",
+        "type": "url",
+        "url_value": "http://cities.human.co/details/Canada/Toronto"
+      },
+      {
+        "float_value": 0.4948,
+        "id": "TRAFFIC-INDEX-TELESCORE",
+        "label": "Traffic handling [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "TRAFFIC",
+    "label": "Commute"
+  },
+  {
+    "data": [
+      {
+        "id": "AIRPORT-HUB-INDEX-DETAIL",
+        "int_value": 148,
+        "label": "Airport hub",
+        "type": "int"
+      },
+      {
+        "float_value": 0.6491,
+        "id": "AIRPORT-HUB-TELESCORE",
+        "label": "Airport hub [Teleport score]",
+        "type": "float"
+      },
+      {
+        "float_value": 0.2179,
+        "id": "TRAIN-TRANSPORT-TELESCORE",
+        "label": "Intercity train connectivity [Teleport score]",
+        "type": "float"
+      }
+    ],
+    "id": "TRAVEL-CONNECTIVITY",
+    "label": "Travel Connectivity"
+  },
+  {
+    "data": [
+      {
+        "float_value": 0.7602,
+        "id": "FUNDERBEAM-VENTURE-CAPITAL-TELESCORE",
+        "label": "Venture capital [Teleport score]",
+        "type": "float"
+      },
+      {
+        "id": "FUNDING-ACCELERATOR-NAMES",
+        "label": "Funding accelerator names",
+        "string_value": "Communitech Hyperdrive, Jolt, Extreme Startups",
+        "type": "string"
+      },
+      {
+        "id": "FUNDING-ACCELERATORS-DETAIL",
+        "int_value": 4,
+        "label": "Number of funding accelerators",
+        "type": "int"
+      }
+    ],
+    "id": "VENTURE-CAPITAL",
+    "label": "Venture Capital"
+  },
+  {
+    "salaries": [
+      {
+        "job": {
+          "id": "ACCOUNT-MANAGER",
+          "title": "Account Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 41202.68610304559,
+          "percentile_50": 50222.952163230795,
+          "percentile_75": 61217.97296617814
+        }
+      },
+      {
+        "job": {
+          "id": "ACCOUNTANT",
+          "title": "Accountant"
+        },
+        "salary_percentiles": {
+          "percentile_25": 37546.510606425465,
+          "percentile_50": 44617.28540383657,
+          "percentile_75": 53019.631509158986
+        }
+      },
+      {
+        "job": {
+          "id": "ADMINISTRATIVE-ASSISTANT",
+          "title": "Administrative Assistant"
+        },
+        "salary_percentiles": {
+          "percentile_25": 25095.442137109225,
+          "percentile_50": 29410.206560304974,
+          "percentile_75": 34466.82649359536
+        }
+      },
+      {
+        "job": {
+          "id": "ARCHITECT",
+          "title": "Architect"
+        },
+        "salary_percentiles": {
+          "percentile_25": 38935.041055132126,
+          "percentile_50": 47727.26061688775,
+          "percentile_75": 58504.91855824226
+        }
+      },
+      {
+        "job": {
+          "id": "ATTORNEY",
+          "title": "Attorney"
+        },
+        "salary_percentiles": {
+          "percentile_25": 55185.32242053897,
+          "percentile_50": 72035.8405321648,
+          "percentile_75": 94031.5666117077
+        }
+      },
+      {
+        "job": {
+          "id": "BUSINESS-ANALYST",
+          "title": "Business Analyst"
+        },
+        "salary_percentiles": {
+          "percentile_25": 40034.03189558727,
+          "percentile_50": 47279.04463240304,
+          "percentile_75": 55835.197093879135
+        }
+      },
+      {
+        "job": {
+          "id": "BUSINESS-DEVELOPMENT",
+          "title": "Business Development"
+        },
+        "salary_percentiles": {
+          "percentile_25": 50003.827065351186,
+          "percentile_50": 61352.183692475606,
+          "percentile_75": 75276.04714966897
+        }
+      },
+      {
+        "job": {
+          "id": "C-LEVEL-EXECUTIVE",
+          "title": "C Level Executive"
+        },
+        "salary_percentiles": {
+          "percentile_25": 91607.08949422753,
+          "percentile_50": 127014.7765989223,
+          "percentile_75": 176108.13271707227
+        }
+      },
+      {
+        "job": {
+          "id": "CASHIER",
+          "title": "Cashier"
+        },
+        "salary_percentiles": {
+          "percentile_25": 14813.08135855636,
+          "percentile_50": 21101.04282568604,
+          "percentile_75": 30058.16261680409
+        }
+      },
+      {
+        "job": {
+          "id": "CHEF",
+          "title": "Chef"
+        },
+        "salary_percentiles": {
+          "percentile_25": 27333.870074275826,
+          "percentile_50": 31968.888728280006,
+          "percentile_75": 37389.869921236364
+        }
+      },
+      {
+        "job": {
+          "id": "CHEMICAL-ENGINEER",
+          "title": "Chemical Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 41958.24615413298,
+          "percentile_50": 50096.34132289805,
+          "percentile_75": 59812.87694250053
+        }
+      },
+      {
+        "job": {
+          "id": "CIVIL-ENGINEER",
+          "title": "Civil Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 40374.1376062054,
+          "percentile_50": 49481.87093169955,
+          "percentile_75": 60644.15727668823
+        }
+      },
+      {
+        "job": {
+          "id": "CONTENT-MARKETING",
+          "title": "Content Marketing"
+        },
+        "salary_percentiles": {
+          "percentile_25": 31300.383238608498,
+          "percentile_50": 38867.22321267936,
+          "percentile_75": 48263.340060350005
+        }
+      },
+      {
+        "job": {
+          "id": "COPYWRITER",
+          "title": "Copywriter"
+        },
+        "salary_percentiles": {
+          "percentile_25": 29353.858919375,
+          "percentile_50": 35130.496489902165,
+          "percentile_75": 42043.9366087035
+        }
+      },
+      {
+        "job": {
+          "id": "CUSTOMER-SUPPORT",
+          "title": "Customer Support"
+        },
+        "salary_percentiles": {
+          "percentile_25": 26329.50241992415,
+          "percentile_50": 29776.541041618377,
+          "percentile_75": 33674.86336286555
+        }
+      },
+      {
+        "job": {
+          "id": "DATA-ANALYST",
+          "title": "Data Analyst"
+        },
+        "salary_percentiles": {
+          "percentile_25": 40099.50123771417,
+          "percentile_50": 47396.64656069533,
+          "percentile_75": 56021.696925413635
+        }
+      },
+      {
+        "job": {
+          "id": "DATA-SCIENTIST",
+          "title": "Data Scientist"
+        },
+        "salary_percentiles": {
+          "percentile_25": 55768.678980511024,
+          "percentile_50": 69177.2132951579,
+          "percentile_75": 85809.57854418806
+        }
+      },
+      {
+        "job": {
+          "id": "DENTIST",
+          "title": "Dentist"
+        },
+        "salary_percentiles": {
+          "percentile_25": 59481.10854675693,
+          "percentile_50": 82926.36025979435,
+          "percentile_75": 115612.8625365396
+        }
+      },
+      {
+        "job": {
+          "id": "ELECTRICAL-ENGINEER",
+          "title": "Electrical Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 45456.894894352175,
+          "percentile_50": 54605.88398848196,
+          "percentile_75": 65596.26593707409
+        }
+      },
+      {
+        "job": {
+          "id": "EXECUTIVE-ASSISTANT",
+          "title": "Executive Assistant"
+        },
+        "salary_percentiles": {
+          "percentile_25": 34225.73256513901,
+          "percentile_50": 39688.386649517415,
+          "percentile_75": 46022.91658312075
+        }
+      },
+      {
+        "job": {
+          "id": "FASHION-DESIGNER",
+          "title": "Fashion Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 30570.490378594186,
+          "percentile_50": 39376.46580102376,
+          "percentile_75": 50719.04440449789
+        }
+      },
+      {
+        "job": {
+          "id": "FINANCE-MANAGER",
+          "title": "Finance Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 56949.73191798876,
+          "percentile_50": 68629.15833706045,
+          "percentile_75": 82703.8374971801
+        }
+      },
+      {
+        "job": {
+          "id": "FINANCIAL-ANALYST",
+          "title": "Financial Analyst"
+        },
+        "salary_percentiles": {
+          "percentile_25": 45165.75511443862,
+          "percentile_50": 52067.25417326125,
+          "percentile_75": 60023.328521221534
+        }
+      },
+      {
+        "job": {
+          "id": "GRAPHIC-DESIGNER",
+          "title": "Graphic Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 32649.03282691806,
+          "percentile_50": 37965.67275151844,
+          "percentile_75": 44148.08595147752
+        }
+      },
+      {
+        "job": {
+          "id": "HARDWARE-ENGINEER",
+          "title": "Hardware Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 53995.62458525166,
+          "percentile_50": 62547.67749355085,
+          "percentile_75": 72454.24031831327
+        }
+      },
+      {
+        "job": {
+          "id": "HUMAN-RESOURCES-MANAGER",
+          "title": "Human Resources Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 41370.36174337846,
+          "percentile_50": 49180.62575085412,
+          "percentile_75": 58465.380705371914
+        }
+      },
+      {
+        "job": {
+          "id": "IT-MANAGER",
+          "title": "IT Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 56107.44781878355,
+          "percentile_50": 66794.20798154139,
+          "percentile_75": 79516.47051013798
+        }
+      },
+      {
+        "job": {
+          "id": "INDUSTRIAL-DESIGNER",
+          "title": "Industrial Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 29773.39878121832,
+          "percentile_50": 36333.191480866655,
+          "percentile_75": 44338.263591796196
+        }
+      },
+      {
+        "job": {
+          "id": "INTERIOR-DESIGNER",
+          "title": "Interior Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 37119.540182295954,
+          "percentile_50": 44202.976025512406,
+          "percentile_75": 52638.12751764453
+        }
+      },
+      {
+        "job": {
+          "id": "LECTURER",
+          "title": "Lecturer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 43058.77459262553,
+          "percentile_50": 59270.8596374885,
+          "percentile_75": 81586.96654522362
+        }
+      },
+      {
+        "job": {
+          "id": "MARKETING-MANAGER",
+          "title": "Marketing Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 43643.452708034834,
+          "percentile_50": 52783.096065760576,
+          "percentile_75": 63836.728247084626
+        }
+      },
+      {
+        "job": {
+          "id": "MECHANICAL-ENGINEER",
+          "title": "Mechanical Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 42851.97577081145,
+          "percentile_50": 50823.76328140925,
+          "percentile_75": 60278.5488328444
+        }
+      },
+      {
+        "job": {
+          "id": "MOBILE-DEVELOPER",
+          "title": "Mobile Developer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 44173.45115581097,
+          "percentile_50": 53256.76129094886,
+          "percentile_75": 64207.856732697204
+        }
+      },
+      {
+        "job": {
+          "id": "NURSE",
+          "title": "Nurse"
+        },
+        "salary_percentiles": {
+          "percentile_25": 41324.49520161009,
+          "percentile_50": 46965.05923695683,
+          "percentile_75": 53375.52892950826
+        }
+      },
+      {
+        "job": {
+          "id": "OFFICE-MANAGER",
+          "title": "Office Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 28556.17654117384,
+          "percentile_50": 33988.7827118606,
+          "percentile_75": 40454.90293731691
+        }
+      },
+      {
+        "job": {
+          "id": "OPERATIONS-MANAGER",
+          "title": "Operations Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 43490.42371861735,
+          "percentile_50": 55216.44605411783,
+          "percentile_75": 70104.07474007092
+        }
+      },
+      {
+        "job": {
+          "id": "PHARMACIST",
+          "title": "Pharmacist"
+        },
+        "salary_percentiles": {
+          "percentile_25": 52073.955460415855,
+          "percentile_50": 64822.59033691707,
+          "percentile_75": 80692.31885374851
+        }
+      },
+      {
+        "job": {
+          "id": "PHYSICIAN",
+          "title": "Physician"
+        },
+        "salary_percentiles": {
+          "percentile_25": 65644.78188603562,
+          "percentile_50": 89224.30689462807,
+          "percentile_75": 121273.56831876813
+        }
+      },
+      {
+        "job": {
+          "id": "POSTDOCTORAL-RESEARCHER",
+          "title": "Postdoctoral Researcher"
+        },
+        "salary_percentiles": {
+          "percentile_25": 29674.718390602553,
+          "percentile_50": 33685.85277054129,
+          "percentile_75": 38239.17254891069
+        }
+      },
+      {
+        "job": {
+          "id": "PRODUCT-MANAGER",
+          "title": "Product Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 58822.48909954092,
+          "percentile_50": 69401.95628052809,
+          "percentile_75": 81884.18425159644
+        }
+      },
+      {
+        "job": {
+          "id": "PROJECT-MANAGER",
+          "title": "Project Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 44250.09340966492,
+          "percentile_50": 54264.17687363991,
+          "percentile_75": 66544.51244910884
+        }
+      },
+      {
+        "job": {
+          "id": "QA-ENGINEER",
+          "title": "QA Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 36675.59660086693,
+          "percentile_50": 44586.106652070914,
+          "percentile_75": 54202.82396559166
+        }
+      },
+      {
+        "job": {
+          "id": "RECEPTIONIST",
+          "title": "Receptionist"
+        },
+        "salary_percentiles": {
+          "percentile_25": 20857.797362973582,
+          "percentile_50": 23763.121372590016,
+          "percentile_75": 27073.133732273454
+        }
+      },
+      {
+        "job": {
+          "id": "RESEARCH-SCIENTIST",
+          "title": "Research Scientist"
+        },
+        "salary_percentiles": {
+          "percentile_25": 42291.9575405744,
+          "percentile_50": 51015.60640472876,
+          "percentile_75": 61538.700220847095
+        }
+      },
+      {
+        "job": {
+          "id": "SALES-MANAGER",
+          "title": "Sales Manager"
+        },
+        "salary_percentiles": {
+          "percentile_25": 47612.74157566909,
+          "percentile_50": 59519.24074068071,
+          "percentile_75": 74403.19337035202
+        }
+      },
+      {
+        "job": {
+          "id": "SOFTWARE-ENGINEER",
+          "title": "Software Engineer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 49176.951588690325,
+          "percentile_50": 57672.629687058376,
+          "percentile_75": 67635.99831969877
+        }
+      },
+      {
+        "job": {
+          "id": "SYSTEMS-ADMINISTRATOR",
+          "title": "Systems Administrator"
+        },
+        "salary_percentiles": {
+          "percentile_25": 41163.39850872837,
+          "percentile_50": 48718.56963125196,
+          "percentile_75": 57660.42437948517
+        }
+      },
+      {
+        "job": {
+          "id": "TEACHER",
+          "title": "Teacher"
+        },
+        "salary_percentiles": {
+          "percentile_25": 30937.431360125975,
+          "percentile_50": 40439.338717551516,
+          "percentile_75": 52859.595771761
+        }
+      },
+      {
+        "job": {
+          "id": "UX-DESIGNER",
+          "title": "UX Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 43529.15355888419,
+          "percentile_50": 52138.320085127,
+          "percentile_75": 62450.20173943489
+        }
+      },
+      {
+        "job": {
+          "id": "WAITER",
+          "title": "Waiter"
+        },
+        "salary_percentiles": {
+          "percentile_25": 20658.06867188739,
+          "percentile_50": 28110.128855695235,
+          "percentile_75": 38250.39779053055
+        }
+      },
+      {
+        "job": {
+          "id": "WEB-DESIGNER",
+          "title": "Web Designer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 36005.38897998035,
+          "percentile_50": 42734.24383074356,
+          "percentile_75": 50720.618427448535
+        }
+      },
+      {
+        "job": {
+          "id": "WEB-DEVELOPER",
+          "title": "Web Developer"
+        },
+        "salary_percentiles": {
+          "percentile_25": 36172.86624239922,
+          "percentile_50": 43663.13564763791,
+          "percentile_75": 52704.40561188935
+        }
+      }
+    ]
+  }
+]
