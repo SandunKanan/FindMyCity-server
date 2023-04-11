@@ -1,7 +1,8 @@
-const knex = require("knex")(require("./knexfile"));
+const knex = require("knex")(require("../knexfile"));
 
 async function run(input) {
   try {
+    console.log(input)
     const { role, exp } = input;
     const salaries = await knex("salaries")
       .select("salaries.amount", { percentile: "percentiles.name" }, { city_name: "cities.name" }, "jobs.title")

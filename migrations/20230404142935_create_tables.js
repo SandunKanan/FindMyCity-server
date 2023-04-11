@@ -1,8 +1,32 @@
 exports.up = function(knex) {
     return knex.schema
+        .createTable('continents', (table) => {
+            table.increments('id').primary();
+            table.string('continent').notNullable();
+        })
+        .createTable('countries', (table) => {
+            table.increments('id').primary();
+            table.string('country').notNullable();
+        })
         .createTable('cities', (table) => {
             table.increments('city_id').primary();
             table.string('name').notNullable();
+            table
+                .integer('country_id')
+                .unsigned()
+                .notNullable()
+                .references('id')
+                .inTable('countries')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
+            table
+                .integer('continent_id')
+                .unsigned()
+                .notNullable()
+                .references('id')
+                .inTable('continents')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
         })
         .createTable('jobs', (table) => {
             table.increments('job_id').primary();
@@ -79,6 +103,7 @@ exports.up = function(knex) {
             table.decimal("COST_PUBLIC_TRANSPORT")
             table.decimal("COST_TAXI")
             table.decimal("RESTAURANT_PRICE_INDEX")
+            table.decimal("TOTAL_COST")
             table.integer('city_id')
                 .unsigned()
                 .notNullable()
@@ -207,10 +232,36 @@ exports.up = function(knex) {
                 .onDelete('CASCADE');
             table.decimal('score').notNullable();
         })
+        .createTable('summaries', table => {
+            table.increments('id').primary();
+            table.string("summary", 1000)
+            table.decimal("total_score")
+            table.integer('city_id')
+                .unsigned()
+                .notNullable()
+                .references('city_id')
+                .inTable('cities')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
+        })
+        .createTable('images', table => {
+            table.increments('id').primary();
+            table.string("mob_url")
+            table.string("web_url")
+            table.integer('city_id')
+                .unsigned()
+                .notNullable()
+                .references('city_id')
+                .inTable('cities')
+                .onUpdate('CASCADE')
+                .onDelete('CASCADE');
+        })
 }
 
 exports.down = (knex) => {
     return knex.schema
+        .dropTable('images')
+        .dropTable('summaries')
         .dropTable('scores')
         .dropTable('score_categories')
         .dropTable('travel_connectivity')
@@ -227,4 +278,6 @@ exports.down = (knex) => {
         .dropTable('percentiles')
         .dropTable('jobs')
         .dropTable('cities')
+        .dropTable('countries')
+        .dropTable('continents')
 }

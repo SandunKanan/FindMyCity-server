@@ -3,16 +3,23 @@ const fs = require('fs')
 const city_list = JSON.parse(fs.readFileSync('./data/urban_area_list.json'))
 
 const costOfLiving_seed = []
-
 function getTotalCosts() {
+    const totalCostObj = {}
     totalCosts = JSON.parse(fs.readFileSync('./data/newDetails/monthlyCostOfLiving.json'))
-    console.log(totalCosts[5].monthlyCosts)
+    totalCosts.forEach(ciity => {
+        totalCostObj[ciity.city] = ciity.monthlyCosts.find(thing => thing.label==='TotalCost')?.cost
+    })
+    return totalCostObj
 }
 
-getTotalCosts()
+const totalCostObj = getTotalCosts()
+
 
 let counter = 1
 city_list.forEach(city => {
+
+    const TOTAL_COST = totalCostObj[city]
+
     const nextCity = city.toLowerCase().replaceAll(",", "").replaceAll(" ", "-").replaceAll(".", "")
     const details = JSON.parse(fs.readFileSync(`./data/cityDetails/${nextCity}_details.json`))
     details.pop()
@@ -31,43 +38,45 @@ city_list.forEach(city => {
             COST_PUBLIC_TRANSPORT: null,
             COST_TAXI: null,
             RESTAURANT_PRICE_INDEX: null,
+            TOTAL_COST: TOTAL_COST || null,
             city_id: counter
         })
         counter ++;
         return
     }
-    // if (counter===2) {
-    //     console.log(found.find(item => item.id==='COST-APPLES')?.currency_dollar_value)
-    // }
+    if (counter===2) {
+        console.log(found.find(item => item.id==='COST-APPLES')?.currency_dollar_value)
+    }
 
-    // const COST_APPLES = found.find(item => item.id==='COST-APPLES')?.currency_dollar_value || null
-    // const COST_BREAD = found.find(item => item.id==='COST-BREAD')?.currency_dollar_value || null
-    // const COST_CAPPUCCINO = found.find(item => item.id==='COST-CAPPUCCINO')?.currency_dollar_value || null
-    // const COST_CINEMA = found.find(item => item.id==='COST-CINEMA')?.currency_dollar_value || null
-    // const COST_FITNESS_CLUB = found.find(item => item.id==='COST-FITNESS-CLUB')?.currency_dollar_value || null
-    // const COST_IMPORT_BEER = found.find(item => item.id==='COST-IMPORT-BEER')?.currency_dollar_value || null
-    // const COST_PUBLIC_TRANSPORT = found.find(item => item.id==='COST-PUBLIC-TRANSPORT')?.currency_dollar_value || null
-    // const COST_TAXI = found.find(item => item.id==='COST-TAXI')?.currency_dollar_value || null
-    // const RESTAURANT_PRICE_INDEX = found.find(item => item.id==='RESTAURANT-PRICE-INDEX')?.currency_dollar_value || null
+    const COST_APPLES = found.find(item => item.id==='COST-APPLES')?.currency_dollar_value || null
+    const COST_BREAD = found.find(item => item.id==='COST-BREAD')?.currency_dollar_value || null
+    const COST_CAPPUCCINO = found.find(item => item.id==='COST-CAPPUCCINO')?.currency_dollar_value || null
+    const COST_CINEMA = found.find(item => item.id==='COST-CINEMA')?.currency_dollar_value || null
+    const COST_FITNESS_CLUB = found.find(item => item.id==='COST-FITNESS-CLUB')?.currency_dollar_value || null
+    const COST_IMPORT_BEER = found.find(item => item.id==='COST-IMPORT-BEER')?.currency_dollar_value || null
+    const COST_PUBLIC_TRANSPORT = found.find(item => item.id==='COST-PUBLIC-TRANSPORT')?.currency_dollar_value || null
+    const COST_TAXI = found.find(item => item.id==='COST-TAXI')?.currency_dollar_value || null
+    const RESTAURANT_PRICE_INDEX = found.find(item => item.id==='RESTAURANT-PRICE-INDEX')?.currency_dollar_value || null
     
-    // costOfLiving_seed.push({
-    //     id: counter,
-    //     COST_APPLES,
-    //     COST_BREAD,
-    //     COST_CAPPUCCINO,
-    //     COST_CINEMA,
-    //     COST_FITNESS_CLUB,
-    //     COST_IMPORT_BEER,
-    //     COST_PUBLIC_TRANSPORT,
-    //     COST_TAXI,
-    //     RESTAURANT_PRICE_INDEX,
-    //     city_id: counter
-    // })
+    costOfLiving_seed.push({
+        id: counter,
+        COST_APPLES,
+        COST_BREAD,
+        COST_CAPPUCCINO,
+        COST_CINEMA,
+        COST_FITNESS_CLUB,
+        COST_IMPORT_BEER,
+        COST_PUBLIC_TRANSPORT,
+        COST_TAXI,
+        RESTAURANT_PRICE_INDEX,
+        TOTAL_COST: TOTAL_COST || null,
+        city_id: counter
+    })
     counter ++; 
     }   
 );
 
-// fs.writeFileSync('./data/seed_data/costOfLiving_seeds.json', JSON.stringify(costOfLiving_seed))
+fs.writeFileSync('./data/seed_data/costOfLiving_seeds.json', JSON.stringify(costOfLiving_seed))
 
 
 // .createTable('cost_of_living', (table) => {

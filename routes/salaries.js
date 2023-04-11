@@ -1,8 +1,8 @@
 const express = require("express");
-const knex = require("knex")(require("../knexfile"));
+
 const router = express.Router();
 
-const getKnexData = require('../getKnexData');
+const getKnexData = require('../scripts/getKnexData');
 
 
 router.route("/")

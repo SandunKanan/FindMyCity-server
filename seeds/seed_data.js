@@ -1,3 +1,5 @@
+const continentData = require('../seed_data/continents');
+const countryData = require('../seed_data/countries');
 const cityData = require('../seed_data/cities');
 const citySizeData = require('../seed_data/citySize');
 const jobData = require('../seed_data/jobs');
@@ -13,9 +15,16 @@ const commuteData = require('../seed_data/commute');
 const travelConnectivityData = require('../seed_data/travelConnectivity');
 const score_categories = require('../seed_data/score_categories');
 const scores = require('../seed_data/scores');
+const summaryData = require('../seed_data/summaries');
+const housingData = require('../seed_data/housing');
+const imageData = require('../seed_data/images');
 
 exports.seed = function (knex) {
-  return knex('cities').del()
+  return knex('continents').del()
+    .then(() => {return knex('continents').insert(continentData);})
+    .then(() => {return knex('countries').del()})
+    .then(() => {return knex('countries').insert(countryData);})
+    .then(() => {return knex('cities').del()})
     .then(() => {return knex('cities').insert(cityData);})
     .then(() => {return knex('jobs').del()})
     .then(() => {return knex('jobs').insert(jobData);})
@@ -45,22 +54,10 @@ exports.seed = function (knex) {
     .then(() => {return knex('score_categories').insert(score_categories);})
     .then(() => {return knex('scores').del();})
     .then(() => {return knex('scores').insert(scores);})
+    .then(() => {return knex('summaries').del();})
+    .then(() => {return knex('summaries').insert(summaryData);})
+    .then(() => {return knex('housing').del();})
+    .then(() => {return knex('housing').insert(housingData);})
+    .then(() => {return knex('images').del();})
+    .then(() => {return knex('images').insert(imageData);})
 };
-
-// // import seed data files, arrays of objects
-// const inventoryData = require('../seed_data/inventory');
-// const warehouseData = require('../seed_data/warehouse');
-
-// exports.seed = function (knex) {
-//   return knex('warehouse')
-//     .del()
-//     .then(function () {
-//       return knex('warehouse').insert(warehouseData);
-//     })
-//     .then(() => {
-//       return knex('inventory').del();
-//     })
-//     .then(() => {
-//       return knex('inventory').insert(inventoryData);
-//     });
-// };
