@@ -3,8 +3,8 @@
 
 ## Installation instructions:
 In your terminal, navigate to the folder you want to contain the project
-git clone git@github.com:SandunKanan/myGlobalHome-server.git
-cd myGlobalHome-server
+git@github.com:SandunKanan/FindMyCity-server.git
+cd FindMyCity-server
 
 #### .env file
 Create a .env file
