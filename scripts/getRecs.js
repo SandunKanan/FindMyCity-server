@@ -95,11 +95,13 @@ async function calculateRatio(city, role, exp) {
 
 function calculateTotalScore(scores, data) {
   let total_score = 0
+  let max_score = 0
   const goodCats = {}
   const badCats = {}
   scores.forEach(score => {
     if (data[revMapping[score.category]]) {
       total_score += Number(score.score)
+      max_score += 10
       if (score.score>7) {
         goodCats[revMapping[score.category]] = score.score
       }
@@ -108,7 +110,7 @@ function calculateTotalScore(scores, data) {
       badCats[revMapping[score.category]] = score.score
     }
   })
-  return {total_score, goodCats, badCats}
+  return {total_score, max_score, goodCats, badCats}
 }
 
 
@@ -166,7 +168,7 @@ async function run(data) {
           scores.push({score: ratio_score, name: city, category: 'ratioScore'})
           
           // calculate total score
-          const {total_score, goodCats, badCats} = calculateTotalScore(scores, data)
+          const {total_score, max_score, goodCats, badCats} = calculateTotalScore(scores, data)
           
           // convert obj list into single obj
           const scoreObj = {}
@@ -175,9 +177,9 @@ async function run(data) {
           })
 
 
-          scoresList.push({...scoreObj, total_score, city_data, goodCats, badCats});
+          scoresList.push({...scoreObj, total_score, percent: total_score/max_score*100, city_data, goodCats, badCats});
       }));
-      const sorted25 = scoresList.sort((a, b) => b.total_score - a.total_score).slice(0, 5)
+      const sorted25 = scoresList.sort((a, b) => b.total_score - a.total_score).slice(0, 10)
       return sorted25;
   } catch (err) {
       throw err;

@@ -1,14 +1,14 @@
 const knex = require("knex")(require("../knexfile"));
 const fs = require("fs")
 
-const mappings = JSON.parse(fs.readFileSync("./data/urban_area_mapping.json"))
+const mappings = JSON.parse(fs.readFileSync("./mappings/urban_area_mapping.json"))
 
 async function run(city) {
     try {
         const cityName =  mappings[city]
 
         const city_info = await knex("cities")
-        .select({ city_name: "cities.name" }, "summaries.summary" , "countries.country", "images.web_url" ,"continents.continent", "summaries.total_score")
+        .select({ city_name: "cities.name" }, "summaries.summary" , "countries.country", "images.mob_url", "images.web_url" ,"continents.continent", "summaries.total_score")
         .join("countries", { "countries.id": "cities.country_id" })
         .join("continents", { "continents.id": "cities.continent_id" })
         .join("images", {"images.city_id": "cities.city_id"})
