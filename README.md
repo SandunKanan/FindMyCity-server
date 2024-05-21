@@ -23,3 +23,6 @@ npm i
 #### Populate DB tables
 knex migrate:up
 knex seed:run
+
+#### Run the server
+npm start
